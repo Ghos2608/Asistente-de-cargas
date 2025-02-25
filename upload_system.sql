@@ -30,7 +30,7 @@ CREATE TABLE `user_login` (
   `registration_date` datetime DEFAULT NULL,
   PRIMARY KEY (`id_user`),
   UNIQUE KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `user_login` (
 
 LOCK TABLES `user_login` WRITE;
 /*!40000 ALTER TABLE `user_login` DISABLE KEYS */;
-INSERT INTO `user_login` VALUES (1,'Juan Pérez','juan.perez@email.com','contraseña1','2025-02-25 08:58:48'),(2,'Ana Gómez','ana.gomez@email.com','contraseña2','2025-02-25 08:58:48'),(3,'Carlos López','carlos.lopez@email.com','contraseña3','2025-02-25 08:58:48'),(4,'Laura Martínez','laura.martinez@email.com','contraseña4','2025-02-25 08:58:48'),(5,'Pedro Sánchez','pedro.sanchez@email.com','contraseña5','2025-02-25 08:58:48'),(6,'Isabel Díaz','isabel.diaz@email.com','contraseña6','2025-02-25 08:58:48'),(7,'Luis Rodríguez','luis.rodriguez@email.com','contraseña7','2025-02-25 08:58:48'),(8,'Marta Fernández','marta.fernandez@email.com','contraseña8','2025-02-25 08:58:48'),(9,'David Ruiz','david.ruiz@email.com','contraseña9','2025-02-25 08:58:48'),(10,'Elena Torres','elena.torres@email.com','contraseña10','2025-02-25 08:58:48'),(11,'Pedro Poot','pedro.poot@gmail.com','contraseña11','2025-02-25 09:39:00');
+INSERT INTO `user_login` VALUES (1,'Juan Pérez','juan.perez@email.com','contraseña1','2025-02-25 08:58:48'),(2,'Ana Gómez','ana.gomez@email.com','contraseña2','2025-02-25 08:58:48'),(3,'Carlos López','carlos.lopez@email.com','contraseña3','2025-02-25 08:58:48'),(4,'Laura Martínez','laura.martinez@email.com','contraseña4','2025-02-25 08:58:48'),(5,'Pedro Sánchez','pedro.sanchez@email.com','contraseña5','2025-02-25 08:58:48'),(6,'Isabel Díaz','isabel.diaz@email.com','contraseña6','2025-02-25 08:58:48'),(7,'Luis Rodríguez','luis.rodriguez@email.com','contraseña7','2025-02-25 08:58:48'),(8,'Marta Fernández','marta.fernandez@email.com','contraseña8','2025-02-25 08:58:48'),(9,'David Ruiz','david.ruiz@email.com','contraseña9','2025-02-25 08:58:48'),(10,'Elena Torres','elena.torres@email.com','contraseña10','2025-02-25 08:58:48'),(11,'Pedro Poot','pedro.poot@gmail.com','contraseña11','2025-02-25 09:39:00'),(12,'pedro angel','pedro.angel@gmail.com','contraseña12','2025-02-25 09:59:44');
 /*!40000 ALTER TABLE `user_login` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-02-25  9:48:49
+-- Dump completed on 2025-02-25 10:01:27

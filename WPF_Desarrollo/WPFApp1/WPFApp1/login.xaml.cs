@@ -33,5 +33,17 @@ namespace WPFApp1
         {
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            stackpanellogin.Visibility = Visibility.Collapsed;
+            Stackloginup.Visibility = Visibility.Visible;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Stackloginup.Visibility = Visibility.Collapsed;
+            stackpanellogin.Visibility = Visibility.Visible;
+        }
     }
 }

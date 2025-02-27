@@ -3,24 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|c:\\users\\pedro\\onedrive\\documentos\\repositoriobd\\wpf_desarrollo\\wpfapp1\\wpfapp1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40E911DE-881A-4DAB-A706-EDD0A9E34784}|WPFApp1\\WPFApp1.csproj|solutionrelative:wpfapp1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,23 +33,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\login.xaml.cs",
               "RelativeDocumentMoniker": "WPFApp1\\login.xaml.cs",
               "ToolTip": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\login.xaml.cs",
               "RelativeToolTip": "WPFApp1\\login.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAMwC0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:41:31.445Z"
+              "WhenOpened": "2025-02-27T04:41:31.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "login.xaml",
               "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\login.xaml",
               "RelativeDocumentMoniker": "WPFApp1\\login.xaml",
@@ -58,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\App.xaml",
               "RelativeDocumentMoniker": "WPFApp1\\App.xaml",
@@ -70,18 +74,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFApp1\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\MainWindow.xaml",
               "RelativeToolTip": "WPFApp1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-26T20:37:22.088Z"
+              "WhenOpened": "2025-02-26T20:37:22.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Microsoft.WinFX.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ViewState": "AgIAAKoCAAAAAAAAAAAWwMICAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-27T20:21:04.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\RepositorioBD\\WPF_Desarrollo\\WPFApp1\\WPFApp1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFApp1\\MainWindow.xaml.cs",
@@ -89,7 +107,8 @@
               "RelativeToolTip": "WPFApp1\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAWwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:37:19.814Z"
+              "WhenOpened": "2025-02-26T20:37:19.814Z",
+              "EditorCaption": ""
             }
           ]
         }

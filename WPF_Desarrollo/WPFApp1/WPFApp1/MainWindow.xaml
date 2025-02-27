@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp1"
         mc:Ignorable="d"
-        Title="Gestor de Horarios" Height="712" Width="1367">
+        Title="Gestor de Horarios" Height="816" Width="1367">
 
     <!-- Fondo con gradiente -->
     <Window.Background>
@@ -32,7 +32,7 @@
 
         <!-- Segundo Label centrado en la parte inferior -->
 
-        <!-- Botón con imagen y tamaño relativo -->
+        
         <DockPanel LastChildFill="False" Margin="-10,0,10,0" Grid.RowSpan="2">
             <!-- Botón con imagen y tamaño relativo -->
             <Button  
@@ -56,7 +56,7 @@
                FontSize="28"
                 DockPanel.Dock="Top" Height="103" Width="805"
                 />
-            <Button Content="Button" IsHitTestVisible="False" BorderBrush="{x:Null}" DockPanel.Dock="Top" Height="386" Width="1346">
+            <Button Content="" BorderBrush="{x:Null}" DockPanel.Dock="Top" Height="386" Width="1346" IsTabStop="False" IsHitTestVisible="False">
                 <Button.Background>
                     <ImageBrush ImageSource="/image.png" Stretch="Uniform"/>
                 </Button.Background>

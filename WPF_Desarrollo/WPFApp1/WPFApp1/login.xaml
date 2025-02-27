@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPFApp1.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp1"
+        mc:Ignorable="d"
+        Title="login" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="False" Margin="221,16,260,10">
+            <Button Content="Button" DockPanel.Dock="Bottom" Height="75"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" DockPanel.Dock="Bottom" Height="48"/>
+            <TextBox TextWrapping="Wrap" Text="TextBox" DockPanel.Dock="Bottom" Height="44">
+                <TextBox.BorderBrush>
+                    <ImageBrush/>
+                </TextBox.BorderBrush>
+            </TextBox>
+            <Button DockPanel.Dock="Bottom" IsHitTestVisible="False" BorderBrush="White" Height="100" Width="115">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Icon.png"/>
+                </Button.Background>
+            </Button>
+            <Button Content="Button" DockPanel.Dock="Right" Width="100" Height="67"/>
+            <Button Content="Button" Click="Button_Click" Width="100" Height="65"/>
+        </DockPanel>
+
+
+
+
+    </Grid>
+</Window>

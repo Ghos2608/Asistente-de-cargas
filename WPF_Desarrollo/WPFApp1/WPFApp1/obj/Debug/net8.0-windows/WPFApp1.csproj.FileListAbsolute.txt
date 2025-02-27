@@ -20,3 +20,26 @@ C:\Users\pedro\OneDrive\Documentos\8vo Semestre\Taller de investigacion - Cinthi
 C:\Users\pedro\OneDrive\Documentos\8vo Semestre\Taller de investigacion - Cinthia\primer parcial\WPF practica 1\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\ref\WPFApp1.dll
 C:\Users\pedro\OneDrive\Documentos\8vo Semestre\Taller de investigacion - Cinthia\primer parcial\WPF practica 1\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\login.g.cs
 C:\Users\pedro\OneDrive\Documentos\8vo Semestre\Taller de investigacion - Cinthia\primer parcial\WPF practica 1\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\login.baml
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\bin\Debug\net8.0-windows\WPFApp1.exe
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\bin\Debug\net8.0-windows\WPFApp1.deps.json
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\bin\Debug\net8.0-windows\WPFApp1.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\bin\Debug\net8.0-windows\WPFApp1.dll
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\bin\Debug\net8.0-windows\WPFApp1.pdb
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\login.g.cs
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1_MarkupCompile.cache
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1_MarkupCompile.lref
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\login.baml
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.g.resources
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.sourcelink.json
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.dll
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\refint\WPFApp1.dll
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.pdb
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\WPFApp1.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\RepositorioBD\WPF_Desarrollo\WPFApp1\WPFApp1\obj\Debug\net8.0-windows\ref\WPFApp1.dll

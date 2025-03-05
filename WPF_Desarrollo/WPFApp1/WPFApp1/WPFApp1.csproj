@@ -28,6 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="account_circle.png" />
     <Resource Include="barratext.png" />
     <Resource Include="button.png" />

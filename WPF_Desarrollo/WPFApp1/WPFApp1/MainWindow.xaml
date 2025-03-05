@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp1"
         mc:Ignorable="d"
-        Title="Gestor de Horarios" Height="712" Width="1367">
+        Title="Gestor de Horarios" Height="816" Width="1367">
 
     <!-- Fondo con gradiente -->
     <Window.Background>
         <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
-            <GradientStop Color="Black" Offset="0"/>
-            <GradientStop Color="#FF160404" Offset="1"/>
+            <GradientStop Color="Black" Offset="1"/>
+            <GradientStop Color="#FF160404" Offset="0"/>
         </LinearGradientBrush>
     </Window.Background>
 
@@ -32,12 +32,12 @@
 
         <!-- Segundo Label centrado en la parte inferior -->
 
-        <!-- Botón con imagen y tamaño relativo -->
-        <DockPanel LastChildFill="False" Margin="-10,0,10,0" Grid.RowSpan="2">
+
+        <DockPanel LastChildFill="False" Margin="-10,0,0,0" Grid.RowSpan="2">
             <!-- Botón con imagen y tamaño relativo -->
             <Button  
                 Cursor="AppStarting" 
-                Click="Button_Click" Content="" FontSize="24" DockPanel.Dock="Bottom" Height="93">
+                Click="Button_Click" Content="" FontSize="24" DockPanel.Dock="Bottom" Height="93" Width="1380">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF1F1919"/>
@@ -56,7 +56,7 @@
                FontSize="28"
                 DockPanel.Dock="Top" Height="103" Width="805"
                 />
-            <Button Content="Button" IsHitTestVisible="False" BorderBrush="{x:Null}" DockPanel.Dock="Top" Height="386">
+            <Button BorderBrush="{x:Null}" DockPanel.Dock="Top" Height="386" Width="1346" IsTabStop="False" IsHitTestVisible="False">
                 <Button.Background>
                     <ImageBrush ImageSource="/image.png" Stretch="Uniform"/>
                 </Button.Background>

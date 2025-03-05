@@ -9,15 +9,45 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="account_circle.png" />
+    <None Remove="barratext.png" />
+    <None Remove="button.png" />
+    <None Remove="circle3.png" />
+    <None Remove="circle_vino.png" />
+    <None Remove="circulomedio.png" />
     <None Remove="Icon.png" />
     <None Remove="image.png" />
+    <None Remove="loginfondo.png" />
+    <None Remove="mateblue.png" />
+    <None Remove="material-icons--circle.png" />
+    <None Remove="material.png" />
+    <None Remove="mediocirculo.png" />
+    <None Remove="Rectangle 13.png" />
     <None Remove="Rectangle 14.png" />
+    <None Remove="user-circle.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="account_circle.png" />
+    <Resource Include="barratext.png" />
+    <Resource Include="button.png" />
+    <Resource Include="circle3.png" />
+    <Resource Include="circle_vino.png" />
+    <Resource Include="circulomedio.png" />
     <Resource Include="Icon.png" />
     <Resource Include="image.png" />
+    <Resource Include="loginfondo.png" />
+    <Resource Include="mateblue.png" />
+    <Resource Include="material-icons--circle.png" />
+    <Resource Include="material.png" />
+    <Resource Include="mediocirculo.png" />
+    <Resource Include="Rectangle 13.png" />
     <Resource Include="Rectangle 14.png" />
+    <Resource Include="user-circle.png" />
   </ItemGroup>
 
 </Project>

@@ -5,27 +5,217 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp1"
         mc:Ignorable="d"
-        Title="login" Height="450" Width="800">
-    <Grid>
-        <DockPanel LastChildFill="False" Margin="221,16,260,10">
-            <Button Content="Button" DockPanel.Dock="Bottom" Height="75"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" DockPanel.Dock="Bottom" Height="48"/>
-            <TextBox TextWrapping="Wrap" Text="TextBox" DockPanel.Dock="Bottom" Height="44">
-                <TextBox.BorderBrush>
-                    <ImageBrush/>
-                </TextBox.BorderBrush>
-            </TextBox>
-            <Button DockPanel.Dock="Bottom" IsHitTestVisible="False" BorderBrush="White" Height="100" Width="115">
-                <Button.Background>
-                    <ImageBrush ImageSource="/Icon.png"/>
-                </Button.Background>
-            </Button>
-            <Button Content="Button" DockPanel.Dock="Right" Width="100" Height="67"/>
-            <Button Content="Button" Click="Button_Click" Width="100" Height="65"/>
-        </DockPanel>
+        Title="Login"
+        Height="577"
+        Width="800"
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FF4A0000" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,10,-6">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="370" Height="548">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="39*"/>
+                <RowDefinition Height="41*"/>
+            </Grid.RowDefinitions>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4A0000" Offset="1"/>
+                    <GradientStop Color="Black" Offset="0"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+            <StackPanel Name="stackpanellogin" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,60,0,0" Grid.RowSpan="2">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0.583"/>
+                        <GradientStop Color="#FF4A0000" Offset="1"/>
+                        <GradientStop Color="#FF370000" Offset="0"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
 
 
 
+                <Button Width="100" Height="100" IsHitTestVisible="False" BorderBrush="{x:Null}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/user-circle.png" Stretch="None"/>
+                    </Button.Background>
+                </Button>
+                <Label Content="MATRICULA" Foreground="White" Width="226" Height="25"/>
+                <TextBox x:Name="matriculatbx"
+                    Width="250" 
+                    Height="40" 
+                    Padding="10"
+                    BorderBrush="{x:Null}" 
+                    BorderThickness="2"
+                    Foreground="Black" 
+                    FontSize="14" 
+                         >
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Label Content="CONTRASEÑA" Foreground="White" Width="226" Height="27"/>
+                <TextBox x:Name="passwordtxb"
+                         Width="250" 
+                         Height="40" 
+                         Padding="10"
+                         BorderBrush="{x:Null}" 
+                         BorderThickness="2"
+                         Foreground="Black" 
+                         FontSize="14" 
+                         >
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
 
+                <Button Content="Ingresar" 
+                        Width="250" 
+                        Height="40" 
+                        Foreground="White"
+                        BorderBrush="{x:Null}" 
+                        BorderThickness="2" 
+                        FontSize="16"
+                        VerticalAlignment="Center" 
+                        HorizontalAlignment="Center" 
+                        Click="Button_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF4A0000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <Button Content="Login up" 
+                        Width="250" 
+                        Height="40" 
+                        Foreground="White" 
+                        BorderBrush="{x:Null}" 
+                        BorderThickness="2" 
+                        FontSize="14" 
+                        VerticalAlignment="Center" 
+                        HorizontalAlignment="Center" Click="Button_Click_1">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF4A0000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            <StackPanel x:Name="Stackloginup" Margin="0,0,0,10" Grid.RowSpan="2" Visibility="Collapsed">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0.521"/>
+                        <GradientStop Color="#FF4A0000" Offset="1"/>
+                        <GradientStop Color="#FF370000" Offset="0"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <Label Content="MATRICULA" Foreground="White" Width="74"/>
+                <TextBox x:Name="matriculaTextBox1"
+                Width="245" 
+                Height="40" 
+                Padding="10"
+                BorderBrush="{x:Null}" 
+                BorderThickness="2"
+                Foreground="Black" 
+                FontSize="14" 
+                >
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Label Content="NOMBRES" Foreground="White" Width="74"/>
+                <TextBox x:Name="tbxnombres" 
+                    Width="245" 
+                    Height="40" 
+                    Padding="10"
+                    BorderBrush="{x:Null}" 
+                    BorderThickness="2"
+                    Foreground="Black" 
+                    FontSize="14" 
+                    TextAlignment="Left">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Label Content="APELLIDO PATERNO" Foreground="White" Width="123"/>
+                <TextBox x:Name="txbapellidoparterno" 
+                Width="245" 
+                Height="40" 
+                Padding="10"
+                BorderBrush="{x:Null}" 
+                BorderThickness="2"
+                Foreground="Black" 
+                FontSize="14" >
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Label Content="APELLIDO MATERNO" Foreground="White" Width="120"/>
+                <TextBox x:Name="txbapellidomaterno" 
+                    Width="245" 
+                    Height="40" 
+                    Padding="10"
+                    BorderBrush="{x:Null}" 
+                    BorderThickness="2"
+                    Foreground="Black" 
+                    FontSize="14" >
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Label Content="E-MAIL" Foreground="White" Width="49"/>
+                <TextBox x:Name="txbemail" TextWrapping="Wrap" 
+                     Width="245" 
+                     Height="40" 
+                     FontSize="14"
+                     Padding="10"
+                     BorderBrush="{x:Null}">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Label Content="CONTRASEÑA" Foreground="White" Width="89"/>
+                <TextBox x:Name="txbpassword" TextWrapping="Wrap" 
+                    Width="246" 
+                    Height="40" 
+                    FontSize="14"
+                    Padding="10"
+                    BorderBrush="{x:Null}">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="/barratext.png"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Button x:Name="bttregistro" Content="aceptar" Width="282" Height="40" Foreground="White" Click="bttregistro_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF4A0000" Offset="0.597"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Content="Regresar" 
+                        Width="281" Height="40"
+                        Foreground="White" BorderBrush="{x:Null}" Click="Button_Click_2">
+                    <Button.Background>
+                        <LinearGradientBrush 
+                            EndPoint="0.5,1" 
+                            StartPoint="0.5,0"
+                            >
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF4A0000" Offset="0.594"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

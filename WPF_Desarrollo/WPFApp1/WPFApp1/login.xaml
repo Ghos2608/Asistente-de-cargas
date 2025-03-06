@@ -50,7 +50,7 @@
                 <TextBox x:Name="matriculatbx"
                     Width="250" 
                     Height="40" 
-                    Padding="10"
+                    Padding="5"
                     BorderBrush="{x:Null}" 
                     BorderThickness="2"
                     Foreground="Black" 
@@ -64,7 +64,7 @@
                 <TextBox x:Name="passwordtxb"
                          Width="250" 
                          Height="40" 
-                         Padding="10"
+                         Padding="5"
                          BorderBrush="{x:Null}" 
                          BorderThickness="2"
                          Foreground="Black" 
@@ -110,7 +110,7 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
-            <StackPanel x:Name="Stackloginup" Margin="0,0,0,10" Grid.RowSpan="2" Visibility="Collapsed">
+            <StackPanel x:Name="Stackloginup" Margin="0,0,0,10" Grid.RowSpan="2" >
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black" Offset="0.521"/>
@@ -122,7 +122,7 @@
                 <TextBox x:Name="matriculaTextBox1"
                 Width="245" 
                 Height="40" 
-                Padding="10"
+                Padding="5"
                 BorderBrush="{x:Null}" 
                 BorderThickness="2"
                 Foreground="Black" 
@@ -136,7 +136,7 @@
                 <TextBox x:Name="tbxnombres" 
                     Width="245" 
                     Height="40" 
-                    Padding="10"
+                    Padding="5"
                     BorderBrush="{x:Null}" 
                     BorderThickness="2"
                     Foreground="Black" 
@@ -150,7 +150,7 @@
                 <TextBox x:Name="txbapellidoparterno" 
                 Width="245" 
                 Height="40" 
-                Padding="10"
+                Padding="5"
                 BorderBrush="{x:Null}" 
                 BorderThickness="2"
                 Foreground="Black" 
@@ -163,7 +163,7 @@
                 <TextBox x:Name="txbapellidomaterno" 
                     Width="245" 
                     Height="40" 
-                    Padding="10"
+                    Padding="5"
                     BorderBrush="{x:Null}" 
                     BorderThickness="2"
                     Foreground="Black" 
@@ -177,7 +177,7 @@
                      Width="245" 
                      Height="40" 
                      FontSize="14"
-                     Padding="10"
+                     Padding="5"
                      BorderBrush="{x:Null}">
                     <TextBox.Background>
                         <ImageBrush ImageSource="/barratext.png"/>
@@ -188,13 +188,13 @@
                     Width="246" 
                     Height="40" 
                     FontSize="14"
-                    Padding="10"
+                    Padding="5"
                     BorderBrush="{x:Null}">
                     <TextBox.Background>
                         <ImageBrush ImageSource="/barratext.png"/>
                     </TextBox.Background>
                 </TextBox>
-                <Button x:Name="bttregistro" Content="aceptar" Width="282" Height="40" Foreground="White" Click="bttregistro_Click">
+                <Button x:Name="bttregistro" Content="aceptar" Width="282" Height="40" Foreground="White" Click="bttregistro_Click" BorderBrush="{x:Null}">
                     <Button.Background>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="Black"/>

@@ -1,7 +1,9 @@
-.vs/
-.vscode/
-bin/
-obj/
-project.assets.json
-project.nuget.cache
+# Archivos binarios y de compilación
+/bin/
+/obj/
+*.dll
+*.exe
+*.pdb
+*.g.cs
+*.json
 
